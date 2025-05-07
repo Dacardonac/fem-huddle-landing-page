@@ -1,3 +1,20 @@
 .register-btn {
-  
+  padding: 11.29px 75.14px 10.71px 75.86px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: var(--violet);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.269));
+  transition: all 0.3s ease;
+
+  &:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
+    background-color: var(--soft-magenta);
+    color: white;
+  }
 }
