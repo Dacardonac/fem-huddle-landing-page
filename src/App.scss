@@ -1,7 +1,8 @@
 .App {
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   height: 800px;
-  background-image: url("/images/bg-mobile.svg");
+  background-image: url('/images/bg-mobile.svg');
   background-color: var(--violet);
   background-repeat: no-repeat;
   background-size: contain;

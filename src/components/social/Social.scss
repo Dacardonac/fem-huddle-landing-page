@@ -1,0 +1,26 @@
+.social-icons {
+  display: flex;
+  gap: 10.5px;
+
+  .icon {
+    width: 27.5px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    i {
+      font-size: 15px;
+      color: var(--white);
+    }
+  }
+}
