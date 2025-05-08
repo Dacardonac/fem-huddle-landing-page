@@ -8,8 +8,10 @@ function App() {
   return (
     <section className="App">
       <Logo />
-      <Illustration />
-      <Content />
+      <article className="main-content">
+        <Illustration />
+        <Content />
+      </article>
       <Social />
     </section>
   );

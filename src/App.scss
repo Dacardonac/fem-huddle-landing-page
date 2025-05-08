@@ -1,13 +1,26 @@
 .App {
-  width: 100%;
-  max-width: 375px;
+  width: 375px;
   height: 800px;
+  margin: 0 auto;
   background-image: url('/images/bg-mobile.svg');
   background-color: var(--violet);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 39.2px 35px 40px 36px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+}
+
+@media (min-width: 1440px) {
+  .App {
+    width: 100vw;
+    height: auto;
+    padding: 64px 80px 40px 80px;
+    background-image: url('/images/bg-desktop.svg');
+    flex-direction: row;
+
+    .main-content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
 }

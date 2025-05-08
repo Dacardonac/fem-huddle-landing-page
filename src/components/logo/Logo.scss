@@ -2,4 +2,9 @@
   width: 120px;
   height: auto;
   align-self: flex-start;
+
+  @media (min-width: 1440px) {
+    width: 200px;
+    margin-bottom: 104px;
+  }
 }

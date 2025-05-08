@@ -1,4 +1,6 @@
 .register-btn {
+  width: 200px;
+  height: 40px;
   padding: 11.29px 75.14px 10.71px 75.86px;
   border-radius: 20px;
   border: none;
@@ -15,5 +17,13 @@
     transform: translateY(-2px);
     background-color: var(--soft-magenta);
     color: white;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 13px 63px 16px 64px;
+    height: 56px;
+    border-radius: 28px;
+    font-size: 18px;
+    line-height: 27px;
   }
 }

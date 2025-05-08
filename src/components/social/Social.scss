@@ -1,5 +1,6 @@
 .social-icons {
   display: flex;
+  justify-content: center;
   gap: 10.5px;
 
   .icon {
@@ -16,11 +17,32 @@
 
     &:hover {
       transform: scale(1.1);
+      border: 1px solid var(--soft-magenta);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      i {
+        color: var(--soft-magenta);
+      }
     }
 
     i {
       font-size: 15px;
       color: var(--white);
+    }
+  }
+
+  @media (min-width: 1440px) {
+    margin-top: 27px;
+    justify-content: flex-end;
+    gap: 1rem;
+
+    .icon {
+      width: 40px;
+      height: 40px;
+
+      i {
+        font-size: 18px;
+      }
     }
   }
 }
