@@ -1,21 +1,18 @@
 .App {
   width: 375px;
-  height: 800px;
+  height: auto;
   margin: 0 auto;
-  background-image: url('/images/bg-mobile.svg');
-  background-color: var(--violet);
-  background-repeat: no-repeat;
-  background-size: contain;
   padding: 39.2px 35px 40px 36px;
 }
 
 @media (min-width: 1440px) {
   .App {
-    width: 100vw;
+    width: 100%;
     height: auto;
-    padding: 64px 80px 40px 80px;
-    background-image: url('/images/bg-desktop.svg');
-    flex-direction: row;
+    padding: 64px 80px 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .main-content {
       display: flex;

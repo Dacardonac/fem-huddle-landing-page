@@ -5,6 +5,15 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+  background-image: url('/images/bg-mobile.svg');
   color: var(--white);
+  background-color: var(--violet);
+  background-repeat: no-repeat;
+  background-size: contain;
   overflow-x: hidden;
+  overflow: visible;
+
+  @media (min-width: 1440px) {
+    background-image: url('/images/bg-desktop.svg');
+  }
 }
